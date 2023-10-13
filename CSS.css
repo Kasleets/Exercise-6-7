@@ -1,0 +1,64 @@
+/* General */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: orange;
+    color: black;
+}
+a {
+    color: #007bff;
+    text-decoration: solid;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+header img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+    margin: 20px;
+}
+
+/* Video */
+iframe {
+    margin: 20px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+
+    
+}
+
+ul li {
+    float: left;
+    margin-right: 10px;
+    background-color: pink;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    bottom: 0px;
+    width: auto;
+    height: 50px;
+}
+
+
